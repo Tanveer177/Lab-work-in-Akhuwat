@@ -1,0 +1,405 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>First is Heading</h1>
+    <ol type="1">
+        <li>ali</li>
+        <li>awais</li>
+        <li>wqas</li>
+    </ol>
+    <ol type="i">
+        <li>ali</li>
+        <li>awais</li>
+        <li>wqas</li>
+    </ol>
+    <ol type="I">
+        <li>ali</li>
+        <li>awais</li>
+        <li>wqas</li>
+    </ol>
+    <ol type="a">
+        <li>ali</li>
+        <li>awais</li>
+        <li>wqas</li>
+    </ol>
+    <ul type="square">
+        <li>Cricket <ul>
+                <li>t20</li>
+                <li>OID</li>
+                <li>text</li>
+            </ul>
+        </li>
+    </ul>
+    <ul>
+        <li>Cricket <ul>
+                <li>t20</li>
+                <li>OID</li>
+                <li>text</li>
+            </ul>
+        </li>
+    </ul>
+    <table border="1px" >
+        <thead>
+            <tr>
+                <th border="1px" bgcolor="brown">Sr#</th>
+                <th border="1px" bgcolor="yellow">Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Ali</td </tr>
+                    <tr>
+                        <td colspan="2" align="center">2</td>
+                        <td>Tanveer</td>
+                    </tr>
+        </tbody>
+    </table>
+
+    <h1> Table Creation</h1>
+    <table border=" 5px" bgcolor="green">
+        <tr>
+            <th>Sr.No </th>
+            <th>Name</th>
+            <!-- <th>Class</th>     <.... //colspan that is used to margen one to two more box> -->
+
+            <th>Deparment</th>
+            <th>Semester</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td bgcolor="white">Zafar</td>
+            <td>BS IT</td>
+            <td bgcolor="yellow">Computer Science</td>
+            <td>5th</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Usama</td>
+            <td>BS IT</td>
+            <td bgcolor="brown">Computer Science</td>
+            <td>5th</td>
+        </tr>
+        <td>3</td>
+        <td bgcolor=" red">fike Hassaan</td>
+        <td>BS IT</td>
+        <td>Computer Science</td>
+        <td>5th</td>
+        <tr>
+            <td>4</td>
+            <td>Hassaan</td>
+            <td>BS IT</td>
+            <td>Computer Science</td>
+            <td>5th</td>
+        </tr>
+    </table>
+    <br>
+
+    <table border="5px" bgcolor="pink">
+        <tr>
+            <th bgcolor="green">Id</th>
+            <th bgcolor="red">name</th>
+        </tr>
+        <tr>
+            <td bgcolor="white">36302</td>
+            <td bgcolor="lightbrown">Tanveer</td>
+        </tr>
+    </table>
+    <form>
+        <p>Username:
+            <input type="text" name="username" size="15" maxlength="30" />
+        </p>
+    </form>
+    <form>
+        <p> Password:
+            <input type="password" name="password" sive="9" maxlength="10" />
+
+        </p>
+        <p>Cell Number:
+            <input type="number" name="number" sive="14" maxlength="15" />
+            <!-- <textarea name="Comments" cols="30" rows="10">its your cell number</textarea> -->
+        </p>
+        <p>
+            Gender:
+            Male:<input type="radio" name="Gender" value="male">
+            Female: <input type="radio" name="Gender" value="female">
+            Others: <input type="radio" name="Gender" value="others">
+        </p>
+    </form>
+    <!-- inputs types
+    Here are the different input types you can use in HTML:
+
+<input type="button">
+<input type="checkbox">
+<input type="color">
+<input type="date">
+<input type="datetime-local">
+<input type="email">
+<input type="file">
+<input type="hidden">
+<input type="image">
+<input type="month">
+<input type="number">
+<input type="password">
+<input type="radio">
+<input type="range">
+<input type="reset">
+<input type="search">
+<input type="submit">
+<input type="tel">
+<input type="text">
+<input type="time">
+<input type="url">
+<input type="week"> -->
+    <p>
+        Answer <br>
+        Select more then one option <br>
+        Apple:<input type="checkbox" value="Apple" name="Answer"> <br>
+        Mango:<input type="checkbox" value="Mango" name="Answer"> <br>
+        orange:<input type="checkbox" value="orange" name="Answer"> <br>
+    </p>
+    <p>
+        orange:<input type="week" value="orange" name="Answer"> <br>
+    </p>
+    <p>
+        Select Your Country <br>
+        <select name="Country">
+            <option value="Pakistan">Pakistan</option>
+            <option value="india">india</option>
+            <option value="Sudia Arab">Sudia Arab</option>
+        </select>
+    </p>
+
+    <p>
+        Upload your files
+        <input type="file">
+    </p>
+    <p>
+        Submit your files
+        <input type="submit" value="Submit">
+        <button style="background-color: aqua;">Login</button> <br>
+    </p>
+    <p>
+        Upload your song in MP3 format:
+
+    </p>
+    <input type="file" name="user-song" /><br />
+    Submit your or upload:
+    <input type="submit" value="Upload" />
+    <from>
+        <fieldset>
+            <legend>Personal Details</legend>
+            <P>
+                <label for="FirstName:">FirstName:</label>
+                <input type="text" name="FirstName" placeholder="FirstName"> <br>
+            </p>
+            <p>
+                <label for="LastName:">LastName:</label>
+                <input type="text" name="LastName" placeholder="LastName" id=""><br>
+            </p>
+            <p>
+                <label for="DOB:">DOB:</label>
+                <input type="date" name="DOB">
+            </p>
+            <p>
+                Gender:
+                <input type="radio" name="Gender" value="male" id="">Male
+                <input type="radio" name="Gender" value="female" id="">Female
+            </p>
+            <p>
+                <label for="Enter Your E-mail :">Enter Your E-mail:</label>
+                <input type="E-mail" name="E-mail" value="E-mail" sive="15" maxlength="20">
+
+            </p>
+            <P>
+                <label style="text-shadow: 1px;" for="phone">Enter a phone number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="92-306-6500266">
+            </P>
+
+            <span style="background-color: blue; color:rgb(247, 6, 207);" >CNIC</span>
+            <div>
+                <input type="number" name="CNIC" placeholder="CNIC" value="">
+            </div>
+
+            <P>
+                Select your Province:
+                <select>
+                    <option value="Select">Select</option>
+                    <option value="Punjab">Punjab</option>
+                    <option value="Balochistan">Balochistan</option>
+                    <option value=" Khyber Pakhtunkhwa"> Khyber Pakhtunkhwa</option>
+                    <option value="Sindh">Sindh</option>
+                </select>
+            </P>
+            <P>
+                Select your Country:
+                <select>
+                    <option value="Select">Select</option>
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="UAE">UAE</option>
+                    <option value="Dubai">Dubai</option>
+                </select><br>
+                <input type="submit" value="submit">
+
+            </P>
+        </fieldset>
+    </from>
+
+    <form action="http://www.example.com/review.php" method="get">
+        <fieldset>
+            <legend>
+                Your Details:
+            </legend>
+            <label>
+                Name:
+                <input type="text" name="name" size="30" maxlength="100">
+            </label>
+            <br />
+            <label>
+                Email:
+                <input type="email" name="email" size="30" maxlength="100">
+            </label>
+            <br />
+
+            <p>Please enter your email address:</p>
+            <input type="email" name="email" />
+            <input type="submit" value="Submit" />
+
+        </fieldset>
+        <br />
+        <fieldset>
+            <legend>
+                Your Review:
+            </legend>
+            <p>
+                <label for="hear-about">
+                    How did you hear about us?
+                </label>
+                <select name="referrer" id="hear-about">
+                    <option value="google">Google</option>
+                    <option value="friend">Friend</option>
+                    <option value="advert">Advert</option>
+                    <option value="other">Other</option>
+                </select>
+            </p>
+            <p>
+                Would you visit again?
+                <br />
+                <label>
+                    <input type="radio" name="rating" value="yes" />
+                    Yes
+                </label>
+                <label>
+                    <input type="radio" name="rating" value="no" />
+                    No
+                </label>
+                <label>
+                    <input type="radio" name="rating" value="maybe" />
+                    Maybe
+                </label>
+            </p>
+            <p>
+                <label for="comments">
+                    Comments:
+                </label>
+                <br />
+                <textarea rows="4" cols="40" id="comments"> </textarea>
+            </p>
+            <label>
+                <input type="checkbox" name="subscribe" checked="checked" />
+                Sign me up for email updates
+            </label>
+            <br />
+            <input type="submit" value="Submit review" />
+            <label for="username">
+                <br>
+                Departure date:</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="date" name="depart" />
+            <input type="submit" value="Submit" />
+            <br>
+            <label for="username">Username:</label>
+            <input type="text" name="username" required="required" /></title><br />
+            <label for="password">Password:</label>
+            <input type="password" name="password" required="required" />
+            <input type="submit" value="Submit" />
+
+        </fieldset>
+
+        </p>
+    </form>
+
+    <fieldset>
+        <p> If you use the (E-mail or URL OR Search) then without fill
+            generate a message on let's see
+        </p>
+        <legend>DM Details</legend>
+        <!-- <span>E-mail:</span> -->
+        <label for="E-mail:">E-mail:</label>
+        <input type="email" name="E-mail:" id="E-mail:" placeholder="E-mail" required="required">
+        <!-- <span>URL: </span> -->
+        <label for="url:">URL</label>
+        <input type="url" name="" id="" placeholder="url" required="required">
+        <!-- <span>Search:</span> -->
+        <label for="search:">Search:</label>
+        <input type="search" name="" id="" placeholder="search" required="required">
+        <input type="submit" value="submit">
+
+    </fieldset>
+
+
+    <script type="text/javascript"
+ src="http://ajax.googleapis.com/ajax/libs/
+ swfobject/2.2/swfobject.js"></script>
+ <script type="text/javascript">
+ swfobject.embedSWF("flash/bird.swf",
+ "bird", "400", "300", "8.0.0");</script>
+
+<main>
+    <aside>
+
+    </aside>
+</main>
+<footer>
+
+</footer>
+<audio src="">
+    <source src="">
+</audio>
+<video src="">
+    <source src="">
+</video>
+
+<iframe src="" frameborder="0" width="" height=""></iframe>
+
+<br>
+
+ <button >Center Button</button>
+ 
+<hr>
+<hr>
+<br>
+<from style="text-align: center;">
+    <input type="email" name="" id="">
+<label > enter your name </label>
+<input type="text" name="enter your name" id="" placeholder="Enter your name " >
+</from>
+<br>
+
+<a href="https://www.google.com/"> Go to Google</a>
+<hr>
+<img src="simple.png" width="100" height="50" >
+
+
+
+</body>
+
+</html>
